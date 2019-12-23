@@ -2,6 +2,11 @@
 
 ![Build status](https://img.shields.io/travis/com/energizah/minimal-python-project/master)
 
+
+## Introduction
+
+There are two ways to structure a Python project: "src layout" (pronounced "source") and "classic". The "src layout" has an extra directory layer. That is the layout I prefer and describe here. Two other good guides are http://bit.ly/pypackages (classic layout) and http://bit.ly/pypackaging (src layout). My favorite way to make a Python package in 2020 is [`poetry new --src myproject`](https://poetry.eustace.io/). But if you want to use the older `setuptools` way, this guide shows how.
+
 ## How to use this
 
 1. Create a file tree structure matching the one described below.

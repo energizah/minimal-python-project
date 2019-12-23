@@ -35,6 +35,7 @@ or run `__main__.py` as a module:
 myenv/bin/python -m greetings
 ```
 
+Don't try to run the app without `-m`;it won't work reliably.
 
 ## Tree structure
 

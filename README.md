@@ -5,7 +5,7 @@
 
 ## Introduction
 
-There are two ways to structure a Python project: "src layout" (pronounced "source") and "classic". The "src layout" has an extra directory layer. That is the layout I prefer and describe here. Two other good guides are http://bit.ly/pypackages (classic layout) and http://bit.ly/pypackaging (src layout). My favorite way to make a Python package in 2020 is with [Poetry](https://poetry.eustace.io/) (`poetry new --src myproject`). But if you want to use the older `setuptools` way, this guide shows how. The tree structure will be the same with Poetry except it replaces `setup.py` with `pyproject.toml`.
+There are two ways to structure a Python project: "src" layout (pronounced "source") and "classic" layout. The "src" layout has an extra directory layer. That is the layout I prefer and describe here. Two other good guides are http://bit.ly/pypackages (classic layout) and http://bit.ly/pypackaging (src layout). My favorite way to make a Python package in 2020 is with [Poetry](https://poetry.eustace.io/) (`poetry new --src myproject`). But if you want to use the older `setuptools` way, this guide shows how. The tree structure will be the same with Poetry except it replaces `setup.py` with `pyproject.toml`.
 
 ## How to use this
 
@@ -116,4 +116,3 @@ from greetings import cli
 
 cli.cli()
 ```
-

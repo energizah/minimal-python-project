@@ -40,7 +40,7 @@ Don't try to run the app without `-m`, it won't work reliably.
 ## Tree structure
 
 
-The `python-greeter/` directory is called the "project root". That should be your shell's working directory whenever you're using this project.
+The `python-greeter/` directory is called the "project root". That should be your shell's working directory whenever you're working on this project.
 ```
 python-greeter/setup.py
 python-greeter/src/greetings/app.py
